@@ -1,0 +1,88 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- FONT SIZES (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font Weights: 
+Default: 400
+- medium: 500
+- Semi-Bold: 600 
+- Bold: 700
+
+--- Line Height:
+Default: 1
+- Small: 1.05
+- medium:  1.2
+-Paragraph Defaults: 1.6
+
+--- LETTER SPACING:
+- -0.05
+- 0.75 
+--- 02 COLOR
+
+- Primary: #00FEFF #0544E1
+- Tints:
+#009DFF
+- Shades:
+#0A237D
+#002E85
+- Accents:
+- Greys: 
+#555
+#333
+
+--- 03 SHADOWS 
+
+--- 04 BORDER RADUIS
+- Default: 9px
+- medium: 11px
+
+--- 05WHITESPACE
+
+- Space system (px):
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10px = 1rem  */
+  overflow-x: hidden;
+  /* Does't work on safari */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #000068;
+
+  /* only works if nothing is absolutly positioned
+  in relatio to the body */
+  overflow-x: hidden;
+}
+
+/************************/
+/* GENERAL REUSABLE COMPONENT */
+/************************/
+.container {
+  /* 1140px */
+  max-width: 135rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid {
+  display: grid;
+}
