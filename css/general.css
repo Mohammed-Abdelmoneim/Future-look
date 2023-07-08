@@ -86,3 +86,7 @@ body {
 .grid {
   display: grid;
 }
+
+a {
+  text-decoration: none !important;
+}
