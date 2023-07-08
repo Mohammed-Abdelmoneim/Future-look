@@ -816,7 +816,7 @@
 .background-section {
   background-color: #0023b5;
   background-image: url("../images/image-3.png");
-  background-size: contain;
+  background-size: cover;
   height: 150rem;
 }
 .success {
@@ -854,11 +854,124 @@
   padding: 1rem 2rem;
   display: block;
   width: fit-content;
-  margin: 11rem auto;
+  margin: 11rem auto 0;
   transition: 0.3s;
   border: 1px solid transparent;
 }
 .success a:hover {
   background-color: transparent;
   border: 1px solid #fff;
+}
+.break-line {
+  width: 100%;
+  height: 0.5px;
+  background-color: rgba(255, 255, 255, 0.182);
+  display: block;
+}
+
+/************************/
+/* FOOTER */
+/************************/
+.footer {
+  padding: 10rem 0 0;
+  border-top: 1px solid #eee;
+  color: #fff !important;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1.5fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  margin-top: 1rem;
+  height: 10rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #fff;
+}
+
+.footer-break-line {
+  background-color: #45c6f4;
+  width: 3.5rem;
+  height: 2px;
+  display: block;
+  margin-bottom: 4rem;
+}
+
+.footer-contact-Us {
+  background: transparent;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1.5rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5.5rem 0;
+  display: block;
+  width: fit-content;
+  transition: 0.3s;
+}
+
+.footer-contact-Us:hover {
+  background-color: #fff;
+  color: #0023b5;
+}
+
+.social-icon-link:not(:last-of-type) {
+  margin-right: 1rem;
 }
