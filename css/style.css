@@ -280,6 +280,12 @@
   position: absolute;
   left: 40rem;
 }
+
+.img-slider [alt="venture studio"],
+.img-slider [alt="artificial intellegence"] {
+  background-color: #fff !important;
+}
+
 .img-slider .img-slide,
 .text-slider .text-slide {
   width: 100%;
@@ -349,7 +355,6 @@
 
 .trusted {
   width: 100%;
-
   background-color: #0544e1;
   padding: 10rem;
   margin-top: -1rem;
@@ -438,4 +443,114 @@
 }
 .logo-forward-arrow {
   right: -9rem;
+}
+
+/************************/
+/* OVERVIEW SECTION*/
+/************************/
+
+.overview {
+  width: 100%;
+  padding: 8rem 0;
+}
+.overview .container {
+  display: grid;
+  gap: 10rem;
+}
+.overview-text-box h2 {
+  color: #28409a;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.overview-text-box p:first-of-type {
+  color: #00a3ff;
+
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  margin-top: 2.9rem;
+}
+.overview-text-box p:nth-of-type(2) {
+  color: #000;
+  text-align: justify;
+  font-size: 2.1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 2.9rem;
+}
+.overview-img-box img {
+  width: 100%;
+}
+/************************/
+/* VIDEO SECTION*/
+/************************/
+
+.video-section {
+  width: 100%;
+  padding: 15rem 0;
+  background-color: #0023d2;
+  color: #fff;
+}
+.video-section .container {
+  display: grid;
+  gap: 5rem;
+}
+.video-box {
+  padding-left: 5rem;
+}
+.video-box video {
+  width: 720px;
+  height: 590px;
+  object-fit: cover;
+}
+.video-js .vjs-big-play-button {
+  font-size: 15em !important;
+  line-height: 1.5em;
+  height: 1.63332em;
+  width: 3em;
+  display: block;
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  padding: 0;
+  cursor: pointer;
+  opacity: 1;
+  border: none !important;
+  background: none !important;
+  border-radius: none;
+  transition: all 0.4s;
+}
+.my-video-dimensions {
+  width: 720px;
+  height: 590px;
+}
+.video-js {
+  background-color: transparent !important;
+}
+.video-text-box h3:first-of-type {
+  color: #fff;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+.video-break-line {
+  display: block;
+  height: 0.5rem;
+  width: 8rem;
+  background-color: #009dff;
+  margin: 2.9rem 0;
+}
+
+.video-text-box h3:nth-of-type(2) {
+  color: #00a3ff;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
 }

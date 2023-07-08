@@ -24,7 +24,6 @@ const swipe = (e) => {
 const slides = document.querySelectorAll(".img-slide");
 const slidesText = document.querySelectorAll(".text-slide");
 var counter = 0;
-console.log(slides);
 
 slides.forEach((slide, index) => {
   slide.style.left = `${index * 100}%`;
