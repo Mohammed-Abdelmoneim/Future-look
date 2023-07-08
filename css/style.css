@@ -508,7 +508,7 @@
   height: 590px;
   object-fit: cover;
 }
-.video-js .vjs-big-play-button {
+/* .video-js .vjs-big-play-button {
   font-size: 15em !important;
   line-height: 1.5em;
   height: 1.63332em;
@@ -524,6 +524,28 @@
   background: none !important;
   border-radius: none;
   transition: all 0.4s;
+} */
+.vjs-theme-forest .vjs-big-play-button {
+  background-image: url(../images/Polygon-1.svg) !important;
+  width: 96px !important;
+  height: 115px !important;
+}
+.vjs-theme-forest .vjs-button > .vjs-icon-placeholder:before {
+  height: 1.5em !important;
+  width: 1.7em !important;
+  border-radius: 0 !important;
+}
+.vjs-theme-forest .vjs-play-control {
+  margin-right: 0.5rem !important;
+  font-size: 0.8em !important;
+  margin-left: 1rem !important;
+}
+.vjs-theme-forest .vjs-button > .vjs-icon-placeholder:hover:before {
+  background-color: transparent !important;
+  color: #fff;
+}
+.vjs-theme-forest .vjs-volume-bar:before {
+  border-bottom: 2em solid #009dff !important;
 }
 .my-video-dimensions {
   width: 720px;
