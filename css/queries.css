@@ -163,7 +163,29 @@
     width: 5rem;
     color: #fff;
   }
-
+  .hero-text-box .know-more {
+    /* position: absolute; */
+    margin: 0;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    font-weight: 500;
+  }
+  .trusted .trusted-text-box h2,
+  .overview-text-box h2 {
+    font-size: 7rem;
+  }
+  .trusted .trusted-text-box p {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+  .hero-text-box p {
+    /* position: absolute; */
+    margin: 3rem 5rem;
+    font-size: 4rem;
+  }
+  .overview-text-box p:nth-of-type(2) {
+    font-size: 2.3rem;
+  }
   .header-slider {
     display: flex;
     position: relative;
