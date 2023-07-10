@@ -158,6 +158,9 @@
   .nav-lang:visited {
     padding: 1.8rem 2.5rem !important;
   }
+  .dropdown-menu {
+    display: none !important;
+  }
   .nav-icon {
     height: 5rem;
     width: 5rem;
