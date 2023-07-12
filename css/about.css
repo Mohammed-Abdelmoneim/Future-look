@@ -447,7 +447,7 @@ h2.container {
 /************************/
 /* MEDIA QUERY*/
 /************************/
-@media (max-width: 34.5em) {
+@media (max-width: 39.5em) {
   .about-video p {
     width: 90%;
     margin: 0 auto;
