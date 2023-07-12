@@ -328,9 +328,13 @@ h2.container {
   top: 54%;
   z-index: 11;
 }
+
+@media (min-width: 56.5em) {
+  .modal {
+    --bs-modal-width: 70rem !important;
+  }
+}
 .modal {
-  --bs-modal-width: 70rem !important;
-  transform: scale(1);
   background: rgba(69, 198, 244, 0.83);
 }
 .modal-body {
@@ -521,9 +525,7 @@ h2.container {
   .body-img img {
     display: none;
   }
-  .modal {
-    --bs-modal-width: 10rem !important;
-  }
+
   .modal-content {
     width: 80%;
     margin: auto;
