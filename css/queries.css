@@ -30,7 +30,7 @@
 /* 850px */
 @media (max-width: 54.5em) {
   html {
-    font-size: 42% !important;
+    font-size: 39% !important;
   }
 }
 
@@ -194,7 +194,9 @@
   .trusted .trusted-text-box p {
     font-size: 2.3rem;
     line-height: 2.8rem;
+    width: auto !important;
   }
+
   .hero-text-box p {
     /* position: absolute; */
     margin: 3rem 5rem;
@@ -274,8 +276,8 @@
     height: 12rem;
   }
 
-  .slick-arrow {
-    display: none;
+  .trusted .slick-arrow {
+    display: none !important;
   }
   .logos {
     width: 100%;
