@@ -277,7 +277,7 @@ h2.container {
   bottom: -8rem;
   left: 0;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   z-index: 10000;
   margin: 0 0 1.5rem 1.5rem;
   color: #fff;
@@ -404,9 +404,9 @@ h2.container {
 }
 .job-description {
   color: #808080;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-style: normal;
-  font-weight: 6card-co00;
+  font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
 }
@@ -495,8 +495,8 @@ h2.container {
   }
   .directors-container .person-details p,
   .directors-container .person-details b {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 3rem;
+    line-height: 4rem;
     font-weight: 400;
   }
 
@@ -507,6 +507,13 @@ h2.container {
   }
   .cards-container {
     grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .details {
+    text-align: left;
+  }
+  .details h2 {
+    font-size: 2.7rem;
+    margin-bottom: 0.3rem;
   }
   .modal-body {
     grid-template-columns: 1fr;
@@ -521,5 +528,22 @@ h2.container {
     width: 80%;
     margin: auto;
     text-align: left;
+  }
+  .card-content h2 {
+    font-size: 4rem;
+  }
+  .card-content .job-title {
+    font-size: 3rem;
+  }
+  .card-content p {
+    font-size: 3rem;
+  }
+  .contacts p {
+    font-size: 3rem;
+    margin-right: 1.5rem;
+  }
+  .body-img .contacts .social-icon {
+    width: 4rem;
+    height: 4rem;
   }
 }
