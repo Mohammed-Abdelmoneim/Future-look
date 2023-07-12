@@ -546,4 +546,7 @@ h2.container {
     width: 4rem;
     height: 4rem;
   }
+  .btn-close {
+    transform: scale(4);
+  }
 }
