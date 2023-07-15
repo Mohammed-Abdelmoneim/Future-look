@@ -110,8 +110,19 @@ function checkFlexGap() {
   document.body.appendChild(flex);
   var isSupported = flex.scrollHeight === 1;
   flex.parentNode.removeChild(flex);
-  console.log(isSupported);
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
+
+const dropdowns = document.querySelectorAll(".dropdown-toggle");
+console.log(dropdowns);
+
+if ($(window).width() <= 750) {
+  console.log("true");
+  for (let i = 0; i <= dropdowns.length; i++) {
+    if (dropdowns[i].hasAttribute("data-bs-toggle")) {
+      dropdowns[i].removeAttribute("data-bs-toggle");
+    }
+  }
+}

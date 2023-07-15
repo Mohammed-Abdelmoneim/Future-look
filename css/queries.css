@@ -77,7 +77,6 @@
 @media (max-width: 39.5em) {
   html {
     font-size: 30% !important;
-    text-align: center;
   }
   header {
     height: auto !important;
@@ -179,9 +178,9 @@
   }
   .hero-text-box .know-more {
     /* position: absolute; */
-    margin: 0;
+    margin: 0 5rem;
     font-size: 3rem;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     font-weight: 500;
   }
   .trusted {
@@ -226,8 +225,7 @@
     margin: 0 auto;
   }
   .trusted .trusted-text-box p {
-    text-align: center;
-    margin: 3rem auto;
+    margin: 3rem 0;
   }
   .cards-container .awards-card p {
     font-size: 3rem;
@@ -246,7 +244,7 @@
     margin: 5rem auto;
   }
   .video-break-line {
-    margin: 3.5rem auto;
+    margin: 3.5rem 0;
   }
   .success h1 {
     font-size: 6.5rem;

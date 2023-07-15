@@ -1,0 +1,100 @@
+.bg-img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+.total-ex {
+  background-color: #0023b5;
+  padding: 5rem 0;
+}
+.total-ex img:first-of-type {
+  width: 40rem;
+  text-align: left !important;
+}
+.total-ex img:nth-of-type(2) {
+  width: 100%;
+  margin: 3rem auto;
+}
+.logo-break-line {
+  width: 20rem;
+  height: 0.5rem;
+  background-color: aqua;
+  display: block;
+  margin-bottom: 3rem;
+}
+.total-ex p {
+  color: #fff;
+  text-align: justify;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.paragraph {
+  background-color: #0335cd;
+  padding: 10rem 0;
+  position: relative;
+  z-index: 1;
+}
+.paragraph::after {
+  content: "";
+  background: rgba(69, 244, 191, 0.69);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30%;
+  height: 60%;
+  z-index: -1;
+}
+.paragraph::before {
+  content: "";
+  background: rgba(254, 0, 102, 0.53);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30%;
+  height: 30%;
+  z-index: -1;
+}
+.paragraph p {
+  color: #fff;
+  text-align: justify;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.img-section img {
+  width: 100%;
+}
+
+.success {
+  background: transparent;
+}
+.success h1 {
+  color: #fff;
+}
+.img-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.img-grid img {
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 39.5em) {
+  .bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .img-grid {
+    grid-template-columns: 1fr;
+  }
+}
