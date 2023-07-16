@@ -1,0 +1,83 @@
+.new-hero-img {
+  background-image: linear-gradient(
+      224deg,
+      rgba(0, 177, 239, 0) 0%,
+      rgba(0, 117, 214, 0.42) 36%,
+      rgba(0, 72, 196, 0.73) 66%,
+      rgba(0, 45, 185, 0.93) 88%,
+      #0023b5 100%
+    ),
+    url("../images/article-1.png");
+  background-size: cover;
+  width: 100%;
+  padding: 10rem 0;
+}
+.new-hero-img .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100%;
+}
+h2 {
+  color: #fff;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 74.4px */
+  letter-spacing: 0.186px;
+}
+
+.container span {
+  color: #fff;
+  margin-bottom: 5rem;
+}
+.puplisher {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+  margin: 3rem 0;
+}
+.puplisher img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.reations {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.reations p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.reations div {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.reations ion-icon {
+  color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.article {
+  margin: 5rem 0;
+}
+.article h2 {
+  color: #000;
+  font-size: 3rem;
+}
+.article p {
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.article img {
+  width: 100%;
+  margin: 5rem 0;
+}
