@@ -52,7 +52,8 @@ article:last-of-type {
   text-transform: capitalize;
 }
 
-.aside-article article a {
+.aside-article article a,
+.blog-card a {
   color: #31358b;
   font-size: 2rem !important;
   font-style: normal;
