@@ -1013,7 +1013,7 @@
 }
 
 .grid--footer {
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
 }
 
 .logo-col {

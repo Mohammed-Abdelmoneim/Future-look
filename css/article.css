@@ -1,0 +1,44 @@
+.article-details img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.img-text-box {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.article-details p {
+  color: #fff;
+
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.article-details h2 {
+  margin-bottom: 2rem;
+}
+
+article {
+  width: 70%;
+  margin: 5rem auto;
+}
+article h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  line-height: normal;
+}
+article p {
+  color: #808080;
+
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}

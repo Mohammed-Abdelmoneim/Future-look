@@ -261,7 +261,9 @@
     text-align: left !important;
     font-size: 3rem !important;
   }
-
+  .nav-col:nth-of-type(3) {
+    grid-column: span 2;
+  }
   .grid--footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
