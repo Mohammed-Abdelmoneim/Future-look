@@ -279,8 +279,8 @@ h2.container {
 
 .img {
   position: relative;
-  width: 30rem;
-  height: 30rem;
+  /*  width: 30rem;
+  height: 30rem; */
   overflow: hidden;
   transition: 0.3s;
   border-radius: 50%;
@@ -304,8 +304,8 @@ h2.container {
 }
 .img::after {
   content: "";
-  width: 18rem;
-  height: 18rem;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
   border: 1px solid transparent;
   position: absolute;
@@ -337,8 +337,8 @@ h2.container {
   position: absolute;
   width: 4rem;
   height: 4rem;
-  left: 65%;
-  top: 54%;
+  left: 67%;
+  top: 59%;
   z-index: 11;
 }
 
