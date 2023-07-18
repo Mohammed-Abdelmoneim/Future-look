@@ -227,6 +227,12 @@ h2.we {
   top: 50%;
   transform: translateY(-50%) !important;
 }
+@media (max-width: 39.5em) {
+  .directors .slick-list {
+    top: 0 !important;
+    transform: translateY(0) !important;
+  }
+}
 .persons .slick-slide.slick-current {
   opacity: 1 !important;
 }
@@ -246,6 +252,7 @@ h2.we {
   top: 100%;
   left: 0;
   transform: translateY(-100%);
+  z-index: 100000;
 }
 .directors .logo-back-arrow {
   left: 0;
