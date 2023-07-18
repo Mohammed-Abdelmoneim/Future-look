@@ -159,6 +159,10 @@ h2.container {
   line-height: 2.6rem;
   margin-bottom: 2rem;
 }
+.persons .slick-next,
+.persons .slick-prev {
+  display: none !important;
+}
 .directors-container p,
 .directors-container b {
   color: #fff;
