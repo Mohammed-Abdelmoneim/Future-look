@@ -98,3 +98,28 @@
     grid-template-columns: 1fr;
   }
 }
+.img-container {
+  position: relative;
+}
+.img-container img {
+  z-index: 10;
+}
+.img-container .img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(
+    to bottom,
+
+    rgba(10, 96, 245, 0.73) 0%,
+    rgba(15, 68, 228, 0.93) 50%,
+    #0023b5 100%
+  );
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+}
+
+.img-container:hover .img-overlay {
+  height: 100%;
+}

@@ -315,12 +315,14 @@
   position: relative;
   overflow: hidden;
 }
+
 .hero {
   /* height: 100rem; */
   width: 100vw !important;
   margin: 0 auto;
   position: relative;
 }
+
 .hero-video {
   object-fit: cover;
   position: absolute;
@@ -338,18 +340,18 @@
 }
 
 .hero-text-box h2 {
-  font-size: 6.5rem;
+  font-size: 4rem;
   background-color: #00feff;
   color: #000068;
-  margin: 6rem 5rem;
-  line-height: 7.9rem;
+  margin: 4rem 5rem;
+  line-height: 4.5rem;
   /*  width: 100rem;
   position: absolute; */
 }
 .hero-text-box p {
   /* position: absolute; */
-  margin: 5rem 5rem;
-  font-size: 4rem;
+  margin: 0 5rem;
+  font-size: 2.5rem;
   color: #002d89;
   text-transform: uppercase;
   font-style: normal;
@@ -483,7 +485,7 @@
   display: flex;
   position: relative;
   margin: 0 0 0 5rem;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 /************************/
@@ -558,8 +560,10 @@
 }
 
 .logos .logo {
-  height: 13rem;
+  height: 11rem;
   object-fit: cover;
+  transform: scale(0.6);
+  margin: 0;
 }
 
 .slick-prev,
@@ -696,8 +700,8 @@
   border-bottom: 2em solid #009dff !important;
 }
 .my-video-dimensions {
-  width: 71rem;
-  height: 58rem;
+  width: 61rem;
+  height: 50rem;
 }
 .video-js {
   background-color: transparent !important;
@@ -750,6 +754,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .cards-container .awards-card .img-overlay {
   width: 100%;
   height: 100%;
@@ -762,14 +767,20 @@
     #0023b5 100%
   );
   position: absolute;
-  left: 0;
+  left: -100%;
   top: 0;
   transition: 0.3s;
   z-index: 1;
 }
+
 .cards-container .awards-card:hover .img-overlay {
   opacity: 1;
 }
+
+.cards-container .awards-card:hover .img-overlay {
+  left: 0;
+}
+
 .cards-container .awards-card img {
   max-width: 100%;
   width: 426px;
@@ -779,7 +790,7 @@
 }
 .awards-link {
   position: absolute;
-  left: 0;
+  left: -100%;
   bottom: 0;
   background: transparent;
   padding: 0.5rem 1rem;
