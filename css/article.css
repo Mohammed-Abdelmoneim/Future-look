@@ -54,7 +54,7 @@ article p {
 }
 .in-this-article span {
   font-size: 1.6rem;
-  border-top: 4px solid #45c6f4;
+  border-top: 0.4rem solid #45c6f4;
   width: fit-content;
   padding: 1rem 0;
   margin: 0 1.5rem;
