@@ -1,6 +1,7 @@
 .article-details img {
   width: 5rem;
   height: 5rem;
+  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -37,6 +38,8 @@ article h2 {
 }
 article p {
   color: #808080;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   font-size: 2.3rem;
   font-weight: 500;
@@ -46,15 +49,11 @@ article p {
   text-align: justify;
 }
 
-.success {
-  background-color: transparent;
-}
-.success h1 {
-  color: #fff;
-}
 .in-this-article span {
   font-size: 1.6rem;
   border-top: 0.4rem solid #45c6f4;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   padding: 1rem 0;
   margin: 0 1.5rem;

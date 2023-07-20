@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .bg-img {
   width: 80%;
   height: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .total-ex {
@@ -46,6 +54,7 @@
   width: 30%;
   height: 60%;
   z-index: -1;
+  opacity: 0.4;
 }
 .paragraph::before {
   content: "";
@@ -56,6 +65,7 @@
   width: 30%;
   height: 30%;
   z-index: -1;
+  opacity: 0.4;
 }
 .paragraph p {
   color: #fff;
@@ -70,14 +80,10 @@
   width: 100%;
 }
 
-.success {
-  background: transparent;
-}
-.success h1 {
-  color: #fff;
-}
 .img-grid {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
@@ -92,9 +98,11 @@
   .bg-img {
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
   }
   .img-grid {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }
