@@ -83,7 +83,11 @@
 }
 
 /* 550px */
-
+@media (max-height: 440px) {
+  .blog {
+    height: auto !important;
+  }
+}
 @media (max-height: 599px) {
   .hero {
     height: auto !important;
