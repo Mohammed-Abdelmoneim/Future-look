@@ -84,6 +84,18 @@
 
 /* 550px */
 
+@media (max-height: 599px) {
+  .hero {
+    height: auto !important;
+  }
+  .header-slider {
+    display: flex;
+    position: relative;
+    margin: 0 0 0 5rem;
+    margin-top: 1rem;
+    bottom: 0;
+  }
+}
 @media (max-width: 39.5em) {
   html {
     font-size: 30% !important;
