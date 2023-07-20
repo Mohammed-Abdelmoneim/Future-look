@@ -116,7 +116,6 @@ function checkFlexGap() {
 checkFlexGap();
 
 const dropdowns = document.querySelectorAll(".dropdown-toggle");
-console.log($(window).height());
 
 if ($(window).width() <= 750) {
   console.log("true");
